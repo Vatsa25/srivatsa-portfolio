@@ -45,14 +45,42 @@
   * {
     border-color: var(--color-border);
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  body, h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, span, li {
+    font-family: var(--font-sans);
+  }
   body {
     background-color: var(--background);
     color: var(--foreground);
-    font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
   h1, h2, h3, h4, h5 {
     letter-spacing: -0.02em;
     font-weight: 600;
+  }
+}
+
+@layer utilities {
+  .nav-link {
+    position: relative;
+    transition: color 0.25s ease;
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 100%;
+    background-color: var(--primary);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+  }
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
   }
 }

@@ -18,7 +18,7 @@ export function Navbar() {
         </a>
         <nav className="hidden gap-8 md:flex">
           {links.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm text-muted-foreground hover:text-foreground">
+            <a key={l.href} href={l.href} className="nav-link text-sm text-muted-foreground hover:text-foreground">
               {l.label}
             </a>
           ))}
