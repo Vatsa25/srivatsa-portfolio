@@ -21,7 +21,7 @@ export const STATS = [
 ];
 
 export const SKILLS: { category: string; items: string[] }[] = [
-  { category: "Frontend", items: ["React.js", "Angular", "Tailwind CSS", "Bootstrap", "Material UI"] },
+  { category: "Frontend", items: ["React.js", "Tailwind CSS", "Bootstrap", "Material UI"] },
   { category: "Backend", items: ["Node.js", "Express.js"] },
   { category: "Databases", items: ["MySQL", "PostgreSQL"] },
   { category: "Cloud & DevOps", items: ["AWS S3", "Azure", "Docker Basics"] },

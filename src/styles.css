@@ -25,20 +25,20 @@
 
 :root {
   --radius: 0.625rem;
-  --background: #f0f6ff;
-  --foreground: #0b1e3f;
-  --card: #ffffff;
-  --card-foreground: #0b1e3f;
-  --primary: #1d4ed8;
+  --background: #0a1733;
+  --foreground: #eaf2ff;
+  --card: #122247;
+  --card-foreground: #eaf2ff;
+  --primary: #3b82f6;
   --primary-foreground: #ffffff;
-  --secondary: #e0ecff;
-  --secondary-foreground: #0b1e3f;
-  --muted: #e7f0ff;
-  --muted-foreground: #475a7a;
-  --accent: #dbeafe;
-  --accent-foreground: #0b1e3f;
-  --border: #c7dbf5;
-  --ring: #1d4ed8;
+  --secondary: #1a2e5c;
+  --secondary-foreground: #eaf2ff;
+  --muted: #16264f;
+  --muted-foreground: #9bb3dc;
+  --accent: #1e3a8a;
+  --accent-foreground: #eaf2ff;
+  --border: #1f3568;
+  --ring: #3b82f6;
 }
 
 @layer base {
