@@ -4,6 +4,7 @@ export const PROFILE = {
   tagline: "Full-Stack Web Developer",
   location: "India",
   email: "srivatsa.ks@example.com",
+  whatsapp: "919999999999",
   github: "https://github.com/",
   linkedin: "https://linkedin.com/",
   resume: "/resume.pdf",
