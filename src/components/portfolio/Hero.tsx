@@ -13,7 +13,7 @@ export function Hero() {
           {PROFILE.role} · {PROFILE.tagline}
         </p>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground">
-          {PROFILE.experienceYears} year of experience building scalable, production-ready web applications
+          {PROFILE.experienceYears} years of experience building scalable, production-ready web applications
           with React, Angular, Node.js, and cloud platforms.
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-3">
