@@ -7,14 +7,14 @@ export const PROFILE = {
   github: "https://github.com/",
   linkedin: "https://linkedin.com/",
   resume: "/resume.pdf",
-  experienceYears: "1+",
+  experienceYears: "2+",
 };
 
 export const ABOUT =
-  "Full-Stack Web Developer with 1+ year of experience building scalable, responsive web applications using React.js, Angular, Node.js, and Express.js. Skilled in RESTful API development, MySQL/PostgreSQL, Tailwind CSS, Bootstrap, MUI, AWS S3, Azure, Docker basics, and state management with Zustand & useContext. I build predictive monitoring dashboards, cloud-based solutions, and production-ready applications with a focus on clean code, performance, and user experience.";
+  "Full-Stack Web Developer with 2+ years of experience building scalable, responsive web applications using React.js, Angular, Node.js, and Express.js. Skilled in RESTful API development, MySQL/PostgreSQL, Tailwind CSS, Bootstrap, MUI, AWS S3, Azure, Docker basics, and state management with Zustand & useContext. I build predictive monitoring dashboards, cloud-based solutions, and production-ready applications with a focus on clean code, performance, and user experience.";
 
 export const STATS = [
-  { label: "Years Experience", value: 1, suffix: "+" },
+  { label: "Years Experience", value: 2, suffix: "+" },
   { label: "Projects Shipped", value: 7, suffix: "" },
   { label: "Technologies", value: 20, suffix: "+" },
   { label: "Happy Clients", value: 5, suffix: "+" },
