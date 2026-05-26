@@ -5,7 +5,7 @@ export function Skills() {
   return (
     <section
       id="skills"
-      className="relative overflow-hidden border-b border-border bg-background"
+      className="border-b border-border bg-background"
     >
       <div className="mx-auto max-w-6xl px-6 py-20">
         <SectionHeading
@@ -13,28 +13,35 @@ export function Skills() {
           title="Technologies & Tools"
         />
 
+        <p className="mt-4 max-w-2xl text-sm leading-7 text-muted-foreground">
+          Technologies and tools I use to build scalable, modern, and
+          user-focused applications.
+        </p>
+
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {SKILLS.map((s) => (
             <div
               key={s.category}
               className="
-                group rounded-2xl border border-white/10
-                bg-gradient-to-br from-secondary/60 to-secondary/20
-                p-6 backdrop-blur-sm
+                rounded-2xl border border-border
+                bg-card p-6
                 transition-all duration-300
                 hover:-translate-y-1
-                hover:border-primary/40
-                hover:shadow-2xl hover:shadow-primary/10
+                hover:border-primary/30
+                hover:shadow-lg
               "
             >
-              {/* Category Header */}
-              <div className="mb-5 flex items-center justify-between">
-                <h3 className="text-lg font-semibold tracking-tight text-foreground">
+              {/* Header */}
+              <div className="flex items-center justify-between">
+                <h3 className="text-base font-semibold text-foreground">
                   {s.category}
                 </h3>
 
-                <div className="h-2 w-2 rounded-full bg-primary shadow-lg shadow-primary/50" />
+                <div className="h-2 w-2 rounded-full bg-primary" />
               </div>
+
+              {/* Divider */}
+              <div className="my-5 h-px bg-border" />
 
               {/* Skills */}
               <ul className="flex flex-wrap gap-2">
@@ -42,13 +49,12 @@ export function Skills() {
                   <li
                     key={it}
                     className="
-                      rounded-full border border-border/60
-                      bg-background/70 px-3 py-1.5
+                      rounded-md border border-border
+                      bg-secondary px-3 py-1.5
                       text-xs font-medium text-muted-foreground
-                      transition-all duration-200
-                      hover:border-primary/40
-                      hover:bg-primary/10
-                      hover:text-primary
+                      transition-colors duration-200
+                      hover:border-primary/30
+                      hover:text-foreground
                     "
                   >
                     {it}
@@ -58,12 +64,6 @@ export function Skills() {
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Background Glow */}
-      <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute left-1/4 top-20 h-72 w-72 rounded-full bg-primary/10 blur-3xl" />
-        <div className="absolute bottom-10 right-1/4 h-72 w-72 rounded-full bg-purple-500/10 blur-3xl" />
       </div>
     </section>
   );
