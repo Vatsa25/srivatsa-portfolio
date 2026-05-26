@@ -27,7 +27,7 @@ export function Hero() {
             href={PROFILE.resume}
             className="rounded-md border border-border px-5 py-2.5 text-sm font-medium text-foreground"
           >
-            Download résumé
+            Download Resume
           </a>
         </div>
         <div className="mt-8 flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
