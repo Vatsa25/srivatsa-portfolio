@@ -175,12 +175,12 @@ export function Contact() {
                 value: "Connect with me",
                 href: PROFILE.linkedin,
               },
-              {
-                icon: MessageCircle,
-                label: "WhatsApp",
-                value: "Chat instantly",
-                href: whatsappHref,
-              },
+              // {
+              //   icon: MessageCircle,
+              //   label: "WhatsApp",
+              //   value: "Chat instantly",
+              //   href: whatsappHref,
+              // },
             ].map((item) => (
               <a
                 key={item.label}
@@ -221,7 +221,7 @@ export function Contact() {
       </div>
 
       {/* Floating WhatsApp */}
-      <a
+      {/* <a
         href={whatsappHref}
         target="_blank"
         rel="noopener noreferrer"
@@ -236,7 +236,7 @@ export function Contact() {
         "
       >
         <MessageCircle className="h-6 w-6" />
-      </a>
+      </a> */}
 
       {/* Background Glow */}
       <div className="pointer-events-none absolute inset-0 -z-10">
