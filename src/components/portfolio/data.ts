@@ -90,7 +90,7 @@ export const PROJECTS: Project[] = [
     features: ["Performance monitoring", "Failure tracking", "Real-time insights", "Predictive maintenance"],
   },
   {
-    title: "VMRDA Rental",
+    title: "Rental Management Platform",
     subtitle: "Rental Management Platform",
     description:
       "Rental management application with role-based JWT authentication and a fully responsive Angular frontend with PrimeNG.",
@@ -98,7 +98,7 @@ export const PROJECTS: Project[] = [
     features: ["JWT Auth", "Role-based access", "CRUD operations", "Reactive forms", "Lazy loading"],
   },
   {
-    title: "RK Makeup Studio",
+    title: "Makeup Studio Website",
     subtitle: "Portfolio Website",
     description:
       "Responsive portfolio website with SEO optimization, fast-loading pages, and direct WhatsApp contact integration.",
