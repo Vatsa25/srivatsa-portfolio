@@ -37,7 +37,7 @@ export function Skills() {
                   {s.category}
                 </h3>
 
-                <div className="h-2 w-2 rounded-full bg-primary" />
+                {/* <div className="h-2 w-2 rounded-full bg-primary" /> */}
               </div>
 
               {/* Divider */}
