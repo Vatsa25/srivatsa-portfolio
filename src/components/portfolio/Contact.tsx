@@ -134,7 +134,7 @@ export function Contact() {
                   <Send className="h-4 w-4" />
                   Send Message
                 </button>
-
+{/* 
                 <a
                   href={whatsappHref}
                   target="_blank"
@@ -149,7 +149,7 @@ export function Contact() {
                 >
                   <MessageCircle className="h-4 w-4" />
                   WhatsApp
-                </a>
+                </a> */}
               </div>
             </form>
           </div>
