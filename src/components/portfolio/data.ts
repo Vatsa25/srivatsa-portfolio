@@ -66,8 +66,8 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "PowerGen",
-    subtitle: "Equipment Failure Prediction",
+    title: "Equipment Failure  Prediction",
+    subtitle: "Early detection of equipment failures",
     description:
       "Equipment monitoring interface using historic and real-time operational data to avoid downtime. Interactive Highcharts dashboards with React Flow dependency visualization.",
     stack: ["React.js", "Tailwind CSS", "Highcharts", "React Flow"],
