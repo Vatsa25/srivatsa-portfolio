@@ -40,20 +40,20 @@ export function Contact() {
       id="contact"
       className="relative overflow-hidden border-b border-border"
     >
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
         <SectionHeading
           eyebrow="Contact"
           title="Let's build something great"
         />
 
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground md:text-base">
           Open to freelance projects, full-time roles, and collaborations.
-          Feel free to send a message or connect through social platforms.
+          Send a message or connect through social platforms.
         </p>
 
-        <div className="mt-14 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
+        <div className="mt-8 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
           {/* Contact Form */}
-          <div className="rounded-3xl border border-white/10 bg-card/60 p-8 shadow-xl backdrop-blur">
+          <div className="rounded-2xl border border-border bg-card/60 p-6 shadow-card backdrop-blur">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
@@ -124,11 +124,10 @@ export function Contact() {
                 <button
                   type="submit"
                   className="
-                    inline-flex items-center gap-2 rounded-xl
-                    bg-primary px-5 py-3 text-sm font-medium
-                    text-primary-foreground transition-all
-                    hover:scale-[1.02]
-                    hover:opacity-90
+                    inline-flex items-center gap-2 rounded-lg
+                    bg-gradient-primary px-5 py-2.5 text-sm font-medium
+                    text-primary-foreground shadow-elegant transition-transform
+                    hover:scale-[1.03]
                   "
                 >
                   <Send className="h-4 w-4" />
