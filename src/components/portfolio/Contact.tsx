@@ -124,11 +124,10 @@ export function Contact() {
                 <button
                   type="submit"
                   className="
-                    inline-flex items-center gap-2 rounded-xl
-                    bg-primary px-5 py-3 text-sm font-medium
-                    text-primary-foreground transition-all
-                    hover:scale-[1.02]
-                    hover:opacity-90
+                    inline-flex items-center gap-2 rounded-lg
+                    bg-gradient-primary px-5 py-2.5 text-sm font-medium
+                    text-primary-foreground shadow-elegant transition-transform
+                    hover:scale-[1.03]
                   "
                 >
                   <Send className="h-4 w-4" />
