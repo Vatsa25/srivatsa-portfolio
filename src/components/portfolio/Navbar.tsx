@@ -11,12 +11,12 @@ const links = [
 export function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <a href="#home" className="font-semibold text-foreground">
-          K. S. Srivatsa
+    <header className="sticky top-0 z-50 border-b border-border bg-background/70 backdrop-blur-xl">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-3">
+        <a href="#home" className="font-semibold tracking-tight">
+          <span className="text-gradient">K.S.</span> Srivatsa
         </a>
-        <nav className="hidden gap-8 md:flex">
+        <nav className="hidden gap-7 md:flex">
           {links.map((l) => (
             <a key={l.href} href={l.href} className="nav-link text-sm text-muted-foreground hover:text-foreground">
               {l.label}
