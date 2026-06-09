@@ -65,14 +65,14 @@ export type Project = {
 };
 
 export const PROJECTS: Project[] = [
-  {
-    title: "Equipment Failure  Prediction",
-    subtitle: "Early detection of equipment failures",
-    description:
-      "Equipment monitoring interface using historic and real-time operational data to avoid downtime. Interactive Highcharts dashboards with React Flow dependency visualization.",
-    stack: ["React.js", "Tailwind CSS", "Highcharts", "React Flow"],
-    features: ["Real-time monitoring", "Failure prediction", "Interactive graphs", "Dependency mapping", "Root cause analysis"],
-  },
+  // {
+  //   title: "Equipment Failure  Prediction",
+  //   subtitle: "Early detection of equipment failures",
+  //   description:
+  //     "Equipment monitoring interface using historic and real-time operational data to avoid downtime. Interactive Highcharts dashboards with React Flow dependency visualization.",
+  //   stack: ["React.js", "Tailwind CSS", "Highcharts", "React Flow"],
+  //   features: ["Real-time monitoring", "Failure prediction", "Interactive graphs", "Dependency mapping", "Root cause analysis"],
+  // },
   {
     title: "Condenser",
     subtitle: "Predictive Monitoring System",
@@ -97,14 +97,14 @@ export const PROJECTS: Project[] = [
     stack: ["Angular", "Node.js", "Express.js", "MySQL", "PrimeNG"],
     features: ["JWT Auth", "Role-based access", "CRUD operations", "Reactive forms", "Lazy loading"],
   },
-  {
-    title: "Makeup Studio Website",
-    subtitle: "Portfolio Website",
-    description:
-      "Responsive portfolio website with SEO optimization, fast-loading pages, and direct WhatsApp contact integration.",
-    stack: ["Angular", "Bootstrap"],
-    features: ["Mobile-first", "SEO optimized", "Fast loading", "WhatsApp contact"],
-  },
+  // {
+  //   title: "Makeup Studio Website",
+  //   subtitle: "Portfolio Website",
+  //   description:
+  //     "Responsive portfolio website with SEO optimization, fast-loading pages, and direct WhatsApp contact integration.",
+  //   stack: ["Angular", "Bootstrap"],
+  //   features: ["Mobile-first", "SEO optimized", "Fast loading", "WhatsApp contact"],
+  // },
   {
     title: "CloudStorage",
     subtitle: "Cloud Image Upload System",
