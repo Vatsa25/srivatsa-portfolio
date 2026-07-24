@@ -90,6 +90,13 @@ export const PROJECTS: Project[] = [
     features: ["Performance monitoring", "Failure tracking", "Real-time insights", "Predictive maintenance"],
   },
   {
+  title: "Domain Monitoring & Alert System",
+  subtitle: "Domain Monitoring & Alert System",
+  description:"Domain and website monitoring application with automated health checks, instant email alerts, and a responsive React frontend for proactive uptime tracking.",
+  stack: ["React.js","Node.js","Express.js","PostgreSQL","Tailwind CSS","Shadcn UI"],
+  features: ["Domain management", "Scheduled health checks", "Email downtime alerts", "Status history tracking", "Cron-based monitoring"],
+},
+  {
     title: "Rental Management Platform",
     subtitle: "Rental Management Platform",
     description:
