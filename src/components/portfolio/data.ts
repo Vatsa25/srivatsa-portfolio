@@ -12,7 +12,7 @@ export const PROFILE = {
 };
 
 export const ABOUT =
-  "Full-Stack Web Developer with 2+ years of experience building scalable, responsive web applications using React.js, Angular, Node.js, and Express.js. Skilled in RESTful API development, MySQL/PostgreSQL, Tailwind CSS, Bootstrap, MUI, AWS S3, Azure, Docker basics, and state management with Zustand & useContext. I build predictive monitoring dashboards, cloud-based solutions, and production-ready applications with a focus on clean code, performance, and user experience.";
+  "Full-Stack Web Developer with 2+ years of experience building scalable, responsive web applications using React.js, Angular, Node.js, and Express.js. Skilled in RESTful API development, MySQL/PostgreSQL, Tailwind CSS, Bootstrap, MUI, AWS S3, Azure, and state management with Zustand & useContext. I build predictive monitoring dashboards, cloud-based solutions, and production-ready applications with a focus on clean code, performance, and user experience.";
 
 export const STATS = [
   { label: "Years Experience", value: 2, suffix: "+" },
