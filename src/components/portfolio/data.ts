@@ -25,7 +25,7 @@ export const SKILLS: { category: string; items: string[] }[] = [
   { category: "Frontend", items: ["React.js", "Tailwind CSS", "Bootstrap", "Material UI"] },
   { category: "Backend", items: ["Node.js", "Express.js"] },
   { category: "Databases", items: ["MySQL", "PostgreSQL"] },
-  { category: "Cloud & DevOps", items: ["AWS S3", "Azure", "Docker Basics"] },
+  { category: "Cloud & DevOps", items: ["AWS S3", "Azure"] },
   { category: "Tools", items: ["Git", "GitHub", "GitLab", "Postman", "VS Code"] },
   { category: "Concepts", items: ["REST APIs", "Full-Stack", "Responsive Design", "SEO", "Auth & Authz", "State Management"] },
 ];
