@@ -82,13 +82,30 @@ export const PROJECTS: Project[] = [
     features: ["Predictive analytics", "Anomaly detection", "Responsive UI", "Zustand state", "Azure integration"],
   },
   {
-    title: "Boiler",
-    subtitle: "Equipment Failure Prediction",
+    title: "Boiler Thermal Health",
+    subtitle: "Boiler Thermal Health Monitoring Application",
     description:
-      "Operational monitoring platform leveraging historic and real-time equipment data to detect and prevent failures before downtime occurs.",
-    stack: ["React", "Node.js", "Tailwind CSS", "MUI", "Azure", "Zustand"],
-    features: ["Performance monitoring", "Failure tracking", "Real-time insights", "Predictive maintenance"],
+      "Interactive boiler thermal health monitoring platform providing tube-level health analysis, temperature and stress monitoring, AI-powered thermal risk prediction, and predictive maintenance insights.",
+    stack: ["React", "Node.js", "Tailwind CSS"],
+    features: [
+      "Tube-level health monitoring",
+      "AI-powered thermal risk prediction",
+      "Temperature and stress analysis",
+      "Real-time health indicators",
+      "Historical trends and health analytics",
+      "Dynamic boiler profile management",
+      "Abnormal condition and failure alerts",
+      "Responsive monitoring dashboard",
+    ],
   },
+  // {
+  //   title: "Boiler",
+  //   subtitle: "Equipment Failure Prediction",
+  //   description:
+  //     "Operational monitoring platform leveraging historic and real-time equipment data to detect and prevent failures before downtime occurs.",
+  //   stack: ["React", "Node.js", "Tailwind CSS", "MUI", "Azure", "Zustand"],
+  //   features: ["Performance monitoring", "Failure tracking", "Real-time insights", "Predictive maintenance"],
+  // },
   {
   title: "Domain Monitoring & Alert System",
   subtitle: "Domain Monitoring & Alert System",
