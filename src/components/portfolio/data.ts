@@ -86,7 +86,7 @@ export const PROJECTS: Project[] = [
     subtitle: "Boiler Thermal Health Monitoring Application",
     description:
       "Interactive boiler thermal health monitoring platform providing tube-level health analysis, temperature and stress monitoring, AI-powered thermal risk prediction, and predictive maintenance insights.",
-    stack: ["React", "Node.js", "Tailwind CSS"],
+    stack: ["React", "Tailwind CSS"],
     features: [
       "Tube-level health monitoring",
       "AI-powered thermal risk prediction",
