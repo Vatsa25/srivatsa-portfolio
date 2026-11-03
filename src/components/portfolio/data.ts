@@ -1,7 +1,7 @@
 export const PROFILE = {
   name: "K. S. Srivatsa",
   role: "Associate IT Consultant",
-  tagline: "Full-Stack Web Developer",
+  tagline: "Full-Stack Developer",
   location: "India",
   email: "srivatsa.ks@example.com",
   whatsapp: "919999999999",
